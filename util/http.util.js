@@ -1,7 +1,7 @@
 import axios from "axios";
+import { REACT_APP_BACKEND_URL } from "@env";
 
-const BACKEND_RUL =
-  "https://mohammed-najib-default-rtdb.europe-west1.firebasedatabase.app";
+const BACKEND_RUL = REACT_APP_BACKEND_URL;
 
 export const storeExpense = async (expenseData) => {
   const response = await axios.post(

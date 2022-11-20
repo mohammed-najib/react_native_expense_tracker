@@ -12,6 +12,12 @@ A sample expense tracker app built using react-native
     <img src="./assets/readme/screenshot_5.png" alt="screenshot 5" width="200"/>
 </div>
 
+## Environment Variables
+
+```
+REACT_APP_BACKEND_URL
+```
+
 ## Installed Packages
 
 ```sh
@@ -24,4 +30,6 @@ yarn add @react-navigation/native-stack
 yarn add @react-navigation/bottom-tabs
 
 yarn add axios
+
+yarn add --dev react-native-dotenv
 ```
