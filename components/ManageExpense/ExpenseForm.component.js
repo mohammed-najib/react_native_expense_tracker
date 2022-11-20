@@ -1,11 +1,28 @@
-import { View } from "react-native"
+import { View } from "react-native";
+import Input from "./Input.component";
 
-const ExpensForm = () => {
-    return (
-        <View>
-            {/*  */}
-        </View>
-    )
-}
+const ExpenseForm = () => {
+    const amountChangedHandler = () => {
+        // 
+    }
 
-export default ExpensForm
+  return (
+    <View>
+      <Input label="Amount" textInputConfig={{
+        keyboardType: 'decimal-pad',
+        onChangeText: amountChangedHandler,
+      }} />
+      <Input label="Date" textInputConfig={{
+        placeHolder: 'YYYY-MM-DD',
+        maxLength: 10,
+        onChangeText: () => {},
+      }} />
+      <Input label="Description" textInputConfig={{
+        multiline: true,
+        onChangeText: () => {},
+      }} />
+    </View>
+  );
+};
+
+export default ExpenseForm;
