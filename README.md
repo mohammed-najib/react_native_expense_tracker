@@ -2,6 +2,16 @@
 
 A sample expense tracker app built using react-native
 
+## Screenshots
+
+<div align="left">
+    <img src="./assets/readme/screenshot_1.png" alt="screenshot 1" width="200"/>
+    <img src="./assets/readme/screenshot_2.png" alt="screenshot 2" width="200"/>
+    <img src="./assets/readme/screenshot_3.png" alt="screenshot 3" width="200"/>
+    <img src="./assets/readme/screenshot_4.png" alt="screenshot 4" width="200"/>
+    <img src="./assets/readme/screenshot_5.png" alt="screenshot 5" width="200"/>
+</div>
+
 ## Installed Packages
 
 ```sh
